@@ -1,0 +1,6 @@
+config.yml
+__pycache__
+.vscode
+venv
+cashback/__pycache__
+cashback/models/__pycache__
