@@ -30,7 +30,7 @@ class Order():
             self.cashback = 10
         elif self.value in range(1001, 1501):
             self.cashback = 15
-        elif self.value < 1500:
+        elif self.value > 1500:
             self.cashback = 20
 
         return self
